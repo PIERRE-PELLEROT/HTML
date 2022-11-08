@@ -1,0 +1,137 @@
+
+/* Gestion des menus */
+
+#menu {
+    position:fixed;
+    top:0px;
+    left:5px;
+    background-color: greenyellow;
+    width: 100%;
+    height: 135px;
+    font-family: verdana;
+    font-size: 15px;
+   
+    
+    
+    
+     
+}
+#menu td:hover{
+    background-color: rosybrown;
+    border-color: blue; 
+    color: yellow;
+}
+#menu>h1 {
+    margin-top:5px;
+    color:red;
+    font-size: 44px;
+    font-family:calibri;
+    text-align:center;
+    text-decoration: underline;
+}
+#menu a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+#menu a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+#menu>table {
+    margin:auto ;
+    border-radius: 5px;
+} 
+#menu>table>tr {
+   border: 2px solid red;
+}
+#page_actuelle{
+   border: 2px solid red;
+    border-radius: 5px;
+    width: 20%;
+    text-align:center;  
+    background-color:red;
+}
+#autres_pages{
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 20%;
+    text-align:center;  
+   
+}
+body{
+    background-color: blue;
+    color:black;
+}
+
+/* Feuille Calendrier */
+div.tableau_calendier {
+   
+   position:static;
+   margin-top:200px;
+   margin-bottom:20px;
+   margin-left:auto;
+   margin-right:auto;
+   width:75%;
+}
+table.tableau_calendier {
+    
+    
+    
+    border: 5px solid black;
+    width:80%;
+    margin-left:auto; 
+    margin-right:auto;
+    border-radius: 20px;
+    border-collapse:collapse;
+ }
+th.tableau_calendier {
+   border-radius: 10px;
+    border:3px solid black;
+    background-color:white;
+    border-collapse:collapse;
+ }
+
+td.tableau_calendier {
+   
+    border: 2px solid black;
+    
+    background-color:white;
+    text-align:center;
+ }
+.tableau_calendier  a{
+    color:black;
+    text-align:center;
+    text-decoration: none;
+ }
+ .tableau_calendier  a:hover{
+    color:blue;
+    text-align:center;
+    text-decoration: underline;
+ }
+ #entete{
+    text-align:center;
+    width:100%;
+    background-color:white; 
+    color:red; 
+    border: 5px solid black; 
+    font-size: 30px;
+    
+ }
+ 
+ 
+ #date{
+    text-align:center;
+    width:100%;
+    background-color:#ff00ff; 
+    font-size:20px;
+    color: white;
+    
+ }
+ #final{
+    border: 2px solid black;
+    padding: 5px;
+    background-color:white;
+    text-align:center;
+    
+ }

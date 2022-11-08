@@ -33,7 +33,6 @@ td{
 
 body{
     background-color: blue;
-    
 }
 
 #page_actuelle{
@@ -49,4 +48,14 @@ body{
     width: 20%;
     text-align:center;  
    
+}
+div.contenu {
+   
+   position:static;
+   margin-top:200px;
+   margin-bottom:20px;
+   margin-left:auto;
+   margin-right:auto;
+   width:75%;
+   color: red;
 }
