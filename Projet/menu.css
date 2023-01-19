@@ -1,16 +1,34 @@
 
 /* Gestion des menus */
-
-#menu {
-    position:fixed;
+#bande {
+   position:fixed;
     top:0px;
-    left:5px;
-    background-color: greenyellow;
+    left:0%;
+    background: linear-gradient(blue, red);
     width: 100%;
     height: 135px;
+}
+#drapeau1{
+   background: linear-gradient(blue, red);
+   width:30%;
+   position:fixed;
+   top:30px;
+   left:2%;
+   border: 2px solid black
+}
+#drapeau2{
+   background: linear-gradient(blue, red);
+   width:30%;
+   position:fixed;
+   top:30px;
+   left:68%;
+   border: 2px solid black;
+}
+#menu {
+    
     font-family: verdana;
     font-size: 15px;
-   
+    
     
     
     
@@ -39,6 +57,8 @@
     text-decoration: underline;
 }
 #menu>table {
+    display:flex;
+    justify-content:center;
     margin:auto ;
     border-radius: 5px;
 } 
@@ -59,8 +79,9 @@
     text-align:center;  
    
 }
+
 body{
-    background-color: blue;
+    background-color: white;
     color:black;
 }
 
@@ -120,7 +141,7 @@ td.tableau_calendier {
  }
  
  
- #date{
+ #date {
     text-align:center;
     width:100%;
     background-color:#ff00ff; 
@@ -134,4 +155,89 @@ td.tableau_calendier {
     background-color:white;
     text-align:center;
     
+ }
+ 
+ /*Feuille Statistique*/
+ div.resume_stats{
+    position:static;
+   margin-top:200px;
+   margin-bottom:20px;
+   margin-left:auto;
+   margin-right:auto;
+   width:75%;
+}
+.resume_stats a{
+   text-decoration:none;
+   color:black;
+   font-size:15px;
+}
+.resume_stats a:hover{
+   text-decoration:underline;
+   color:blue;
+   font-size:20px;
+}
+
+div.classement{
+     background-color: purple;
+     position:static;
+   margin-top:200px;
+   margin-bottom:20px;
+   margin-left:auto;
+   margin-right:auto;
+   width:25%;
+}
+div.classement table{
+     border: 3px solid  black;
+    
+     border-radius:30px;
+     border-collapse:collapse;
+     
+
+}
+div.classement  td{ 
+     border: 3px solid  black;
+     padding:5px;
+     
+}
+div.classement tr{
+   border: 3px solid  black;
+   margin:10px;
+}
+img.pays {
+   width:20;
+}
+div.groupe {
+      position: absolute;
+    top: 200px;
+    left: 15%;
+    display: flex;
+    border: 3px solid black;
+    border-radius:10px;
+    width: 70%;
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: flex-start;
+    background-color:black;
+    
+}
+.groupe table{
+    width:25%;
+    height:50%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius:10px;
+    background-color:white;
+}  
+.groupe tr td{
+   border: 1px solid blue;
+}
+#nom_groupe{
+    text-align:center;
+    width:100%;
+    background-color:#ff00ff; 
+    font-size:20px;
+    color: white;
+    border-radius:8px 8px 0px 0px;
  }
